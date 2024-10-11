@@ -39,3 +39,18 @@ services:
       - mysql
     ports:
       - 8080:80
+
+  app:
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - MAIL_HOST=127.0.0.1
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"

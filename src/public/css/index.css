@@ -1,0 +1,33 @@
+.stamp__content {
+    background-color: #edebeb;
+    margin: 0 auto;
+    padding: 30px 15px 60px;
+    height: 580px;
+}
+
+.stamp__heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.form__group {
+    height: 500px;
+}
+
+.form__group--work,
+.form__group--break {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__button {
+    width: 400px;
+    height: 80%;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px;
+    background-color: #fff;
+}
